@@ -42,7 +42,7 @@ input[readonly] {
     color: #000;
 }
 
-/* 3x3 bloklar için kalın çerçeveler */
+
 td:nth-child(3n) {
     border-right: 3px solid black;
 }
@@ -50,7 +50,7 @@ tr:nth-child(3n) td {
     border-bottom: 3px solid black;
 }
 
-/* Yanlış hücre stili */
+
 .invalid {
     background-color: #ffdddd;
     color: red;
