@@ -4,7 +4,7 @@ class Sudoku {
     private $solution;
 
     public function __construct() {
-        // TAMAMEN DOĞRULANMIŞ Sudoku
+        // Sudoku
         $this->solution = [
             [5,3,4,6,7,8,9,1,2],
             [6,7,2,1,9,5,3,4,8],
@@ -17,7 +17,7 @@ class Sudoku {
             [3,4,5,2,8,6,1,7,9]
         ];
 
-        // ÖN-TANIMLI başlangıç tahtası
+        
         $this->board = [
             [5,0,4,0,7,0,9,0,2],
             [0,7,0,1,0,5,0,4,0],
